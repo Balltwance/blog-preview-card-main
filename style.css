@@ -77,6 +77,10 @@ text-align: center;
 .title{
     font-weight: 800;
 }
+.title:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
 
 .text3{
     font-size: 15px;
