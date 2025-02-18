@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.attribution{
+position: absolute;
+bottom: 10px;
+text-align: center;
+}
+
 .background {
     background-color: (47, 88%, 63%);
     height: 100vh;
@@ -7,7 +18,7 @@
     position: fixed;
     width: 100%;
     z-index: 1;
-}
+    background-color: hsl(47, 88%, 63%);}
 .container{
     width: 100%;
     height: 100%;
@@ -22,7 +33,7 @@
     background-color: white;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 8px 7px 0px rgba(0, 0, 0 ,1 );
     display: flex;
     flex-direction: column;
     justify-content: center;
