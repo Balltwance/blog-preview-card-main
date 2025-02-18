@@ -52,15 +52,20 @@ text-align: center;
     width: auto;
     z-index: 2;
 }
+.card{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 .text1{
     font-weight: 800;
     background-color: hsl(47, 88%, 63%);
     color: hsl(0, 0%, 7%);
-    padding: 10px 15px;
+    padding: 7px 15px;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
     display: inline-block;
+    font-size: 15px;
 }
 .text2{
     font-size: 15px;
@@ -78,7 +83,7 @@ text-align: center;
     color: hsl(0, 0%, 42%);
     margin: 0;
     font-weight: 500;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
 }
 
 .profile{
